@@ -20,8 +20,8 @@ alias mkdir='mkdir -p'
 
 ## Functions
 
-# 'cdn 2' would do 'cd ..' twice
-function cdn(){ for i in `seq $1`; do cd ..; done;}
+# 'up 2' would do 'cd ..' twice
+function up(){ for i in `seq $1`; do cd ..; done;}
 
 # Colored output for man command
 function man() {
