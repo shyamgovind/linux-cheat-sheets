@@ -31,3 +31,30 @@ mkdir test; cd !$
   # Same as
   # mkdir test; cd test
 ```
+
+
+#### rename command
+
+```
+$ ls
+this_has_text_to_find_1.txt
+this_has_text_to_find_2.txt
+this_has_text_to_find_3.txt
+this_has_text_to_find_4.txt
+
+$ rename -v text_to_find been_renamed *.txt
+$ ls
+this_has_been_renamed_1.txt
+this_has_been_renamed_2.txt
+this_has_been_renamed_3.txt
+this_has_been_renamed_4.txt
+
+```
+
+#### List only the directories
+
+```
+ls -d */
+```
+
+
