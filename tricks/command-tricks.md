@@ -14,3 +14,20 @@ mv /home/foo/realllylongname.yaml{.bkp,}
   # mv /home/foo/realllylongname.yaml.bkp /home/foo/realllylongname.yaml
   
 ```
+
+#### Repeat the previous command
+
+```
+!!
+# Repeats your last command. Most useful in the form:
+
+sudo !!
+```
+
+#### !$ - last word of the previous command.
+
+```
+mkdir test; cd !$
+  # Same as
+  # mkdir test; cd test
+```
