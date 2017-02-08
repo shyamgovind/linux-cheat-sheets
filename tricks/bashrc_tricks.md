@@ -1,4 +1,4 @@
-# Some useful tricks to be included in your .bashrc file
+## Some useful tricks for your .bashrc
 
 ### .bash_profile vs .bashrc
 
