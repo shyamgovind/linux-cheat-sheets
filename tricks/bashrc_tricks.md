@@ -17,6 +17,8 @@ If you’d like to print some lengthy diagnostic information about your machine 
 
 alias grep='grep --color=auto'
 alias mkdir='mkdir -p'
+alias ll='ls -lAhtr'
+alias less='less -MNG'
 
 ## Functions
 
