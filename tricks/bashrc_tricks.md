@@ -16,8 +16,9 @@ If you’d like to print some lengthy diagnostic information about your machine 
 ## Aliases
 
 alias vi='vim'
+alias c='clear'
 alias grep='grep --color=auto'
-alias mkdir='mkdir -p'
+alias mkdir='mkdir -pv'
 alias ll='ls -lAhtr'
 alias less='less -MNG'
 
