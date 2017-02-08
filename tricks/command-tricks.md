@@ -57,4 +57,19 @@ this_has_been_renamed_4.txt
 ls -d */
 ```
 
+#### escape aliases set
+
+```
+$ alias ls='ls -lAtr'
+$ # To escape the alias for ls:
+$ \ls # This will run the plain ls command.
+```
+
+#### Ignore case while typing and pressing <TAB>
+
+```
+# Put this line in you ~/.inputrc file
+set completion-ignore-case on
+```
+
 
