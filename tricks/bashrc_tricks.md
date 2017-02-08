@@ -20,7 +20,7 @@ alias mkdir='mkdir -p'
 
 ## Functions
 
-# 'cd 2' would do 'cd ..' twice
+# 'cdn 2' would do 'cd ..' twice
 function cdn(){ for i in `seq $1`; do cd ..; done;}
 
 ## Misc commands
