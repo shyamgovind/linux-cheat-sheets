@@ -10,7 +10,7 @@ If you’d like to print some lengthy diagnostic information about your machine 
 
 #### Useful tricks
 
-*Note : Do read through the file before using, to know what you are doing.*
+*Note : Do read through the file before using.*
 
 ```
 ## Aliases
@@ -57,7 +57,12 @@ function extract () {
       fi
     }
 
-
+# do a "ls" after every "cd" command
+function cd ()
+    {
+        builtin cd $1
+        ls
+    }
 
 
 ## Misc commands
