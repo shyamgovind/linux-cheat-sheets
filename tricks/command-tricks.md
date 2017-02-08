@@ -65,7 +65,7 @@ $ # To escape the alias for ls:
 $ \ls # This will run the plain ls command.
 ```
 
-#### Ignore case while typing and pressing <TAB>
+#### Ignore case while typing and pressing < TAB >
 
 ```
 # Put this line in you ~/.inputrc file
