@@ -14,6 +14,10 @@ mv /home/foo/realllylongname.yaml{.bkp,}
   # mv /home/foo/realllylongname.yaml.bkp /home/foo/realllylongname.yaml
   
 ```
+#### Copy while preserving the date
+```
+cp -p 
+```
 
 #### Repeat the previous command
 
