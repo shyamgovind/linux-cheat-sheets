@@ -65,6 +65,15 @@ $ # To escape the alias for ls:
 $ \ls # This will run the plain ls command.
 ```
 
+#### Mark important commands for later use
+
+```
+$ imp_command_here   #useful
+
+to search, just grep "useful" in your history
+
+```
+
 
 
 
