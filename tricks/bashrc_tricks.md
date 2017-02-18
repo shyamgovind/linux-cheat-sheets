@@ -17,6 +17,7 @@ If you’d like to print some lengthy diagnostic information about your machine 
 
 alias vi='vim'
 alias c='clear'
+alias cp='cp -ip' # i = prompt before overwrite, p = preserve mode,ownership & time stamp of the file being copied.
 alias grep='grep --color=auto'
 alias mkdir='mkdir -pv'
 alias ll='ls -lAhtr'
